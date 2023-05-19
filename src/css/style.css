@@ -28,7 +28,7 @@ body.dark {
 
 header{
     width: 100vw;
-    height: 10vh;
+    height: 8vh;
 }
 nav{
     display: flex;
@@ -58,14 +58,17 @@ nav{
     align-items: center;
     justify-content: center;
     margin-right: 2rem;
+    gap: 1rem;
 }
+
 
 .icons{
     width: 12vw;
     height: 2vh;
 }
-.icon{
-    color: #8983f7;
+.icon-leave{
+    width: 2rem;
+    height: 3rem;
 }
 
 .div-switch{
