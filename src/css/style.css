@@ -5,27 +5,67 @@
 }
 
 :root{
+    --color-home1:#f2f2f7;
+
     --color-dark1: #100F10;
     --color-dark2: #1B1B1B;
     --color-dark3: #252525;
 
-    --font-color-dark1:rgba(#fff, 0.96);
-    --font-color-dark2:rgba(#fff, 0.67);
-    --font-color-dark3:rgba(#fff, 0.45);
+    --font-color-dark1: rgba(255, 255, 255, 0.96);
+    --font-color-dark2: rgba(255, 255, 255, 0.67);
+    --font-color-dark3: rgba(255, 255, 255, 0.45);
 }
 
 body {
-    background-color: #f2f2f7;
+    background-color: var(--color-home1);
     transition: 0.4s;
+    max-width: 100vw;
 }
 
 body.dark {
     background-color: var(--color-dark1);
 }
 
+header{
+    width: 100vw;
+    height: 10vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-dark3);
+}
+.home, h1{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    margin-left: 2rem;
+    text-decoration: none;
+}
+.titlelogo{
+    color: var(--font-color-dark1);
+}
+
+.nav-itens{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
 .icons{
     width: 12vw;
     height: 2vh;
+}
+.icon{
+    color: #8983f7;
 }
 
 .div-switch{
