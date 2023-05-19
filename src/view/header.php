@@ -40,14 +40,20 @@
                 <!-- TOGGLE THEME -->
 
                 <!-- AVATAR -->
-                <lord-icon class="icon" src="https://cdn.lordicon.com/hbvyhtse.json" trigger="hover" colors="primary:#fff" style="width:6rem;height:6rem">
-                </lord-icon>
+                <div class="icon-avatar">
+                    <a href="#">
+                        <lord-icon src="https://cdn.lordicon.com/hbvyhtse.json" trigger="hover" colors="primary:#fff" style="width:3rem;height:3rem">
+                        </lord-icon>
+                    </a>
+                </div>
 
                 <div class="icon-leave">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="44" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 0.96);transform: scaleX(-1);msFilter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);">
-                        <path d="M16 13v-2H7V8l-5 4 5 4v-3z"></path>
-                        <path d="M20 3h-9c-1.103 0-2 .897-2 2v4h2V5h9v14h-9v-4H9v4c0 1.103.897 2 2 2h9c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2z"></path>
-                    </svg>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="44" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 0.96);transform: scaleX(-1);">
+                            <path d="M16 13v-2H7V8l-5 4 5 4v-3z"></path>
+                            <path d="M20 3h-9c-1.103 0-2 .897-2 2v4h2V5h9v14h-9v-4H9v4c0 1.103.897 2 2 2h9c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2z"></path>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </nav>
