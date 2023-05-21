@@ -4,8 +4,8 @@
     padding: 0;
 }
 
-:root{
-    --color-home1:#f2f2f7;
+:root {
+    --color-home1: #f2f2f7;
 
     --color-dark1: #100F10;
     --color-dark2: #1B1B1B;
@@ -26,32 +26,37 @@ body.dark {
     background-color: var(--color-dark1);
 }
 
-header{
+header {
     width: 100vw;
     height: 8vh;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-dark3);
 }
-.home, h1{
+
+.home,
+h1 {
     width: 10vw;
     height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.home{
+
+.home {
     margin-left: 2rem;
     text-decoration: none;
 }
-.titlelogo{
+
+.titlelogo {
     color: var(--font-color-dark1);
 }
 
-.nav-itens{
+.nav-itens {
     width: 10vw;
     height: 5vh;
     display: flex;
@@ -63,20 +68,22 @@ nav{
 }
 
 
-.icons{
+.icons {
     width: 12vw;
     height: 2vh;
 }
-.icon-leave{
+
+.icon-leave {
     width: 2rem;
     height: 3rem;
 }
-.icon-avatar{
+
+.icon-avatar {
     width: 3rem;
     height: 3rem;
 }
 
-.div-switch{
+.div-switch {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,4 +136,64 @@ input:checked+.slider:before {
     left: calc(100% - 1.7rem);
     background: #37393f;
     box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25%;
+    width: 100vw;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    background-color: var(--color-dark3);
+}
+
+.shadow-footer {
+    width: 100vw;
+    height: 5rem;
+    background: linear-gradient(to top, var(--color-dark3), transparent);
+}
+
+.social-footer {
+    margin: 0.5rem;
+}
+
+.span-footer {
+    color: var(--font-color-dark3);
+    font-family: var(--main-font-family);
+    margin: 1rem;
+}
+
+.div-logo-footer {
+    width: 20%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 40%;
+    height: 100%;
+
+}
+
+.bxl-linkedin-square {
+    color: rgb(0, 102, 255);
+}
+
+.bxl-github {
+    color: rgb(255, 255, 255);
+}
+
+.bxl-linkedin-square:hover {
+    filter: drop-shadow(2px 4px 5px #FFF);
+}
+
+.bxl-github:hover {
+    filter: drop-shadow(2px 4px 5px #FFF);
 }
