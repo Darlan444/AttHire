@@ -201,7 +201,7 @@ footer {
 
 
 
-main{
+main {
     width: 100%;
     height: auto;
     display: flex;
@@ -211,16 +211,21 @@ main{
     margin-top: 5rem;
 }
 
-.card{
+.card {
     width: 70%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: solid red 1px;
     margin: 1rem;
+    background-color: #a5a5a5;
+    border-radius: 16px;
+background: #e0e0e0;
+box-shadow:  5px 5px 0px #5a5a5a,
+             -2px -2px 0px #5a5a5a;
 }
-.img-card{
+
+.img-card {
     width: 20%;
     height: 10rem;
 }
